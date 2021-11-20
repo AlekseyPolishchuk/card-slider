@@ -80,3 +80,18 @@ body::before {
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
 }
+
+@media (min-width: 375px) {
+  .container {
+    flex-direction: column;
+    height: 100vh;
+  }
+  .slide {
+    margin: 7px;
+  }
+  .slide p {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-shadow: 1px 1px 2px black;
+  }
+}
